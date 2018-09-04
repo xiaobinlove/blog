@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "dependencies": {
+    "element-ui": "^2.4.6",
+    "vuepress": "^0.14.2"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "gh-pages -d dist",
+    "deploy:build": "npm run build && gh-pages -d dist"
+  }
+}
