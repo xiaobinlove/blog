@@ -4,6 +4,13 @@ module.exports = {
   base: '/blog/', // 设置站点根路径
   repo: 'https://github.com/xiaobinlove/blogsite', // 添加 github 链接
   serviceWorker: true,
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@img': 'path/to/some/dir'
+      }
+    }
+  },
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -44,7 +51,7 @@ function genSidebarConfigBlog (title) {
       collapsable: false,
       children: [
         '',
-        'class1',
+        'git',
         'class2',
         'class3'
       ]
