@@ -1,7 +1,7 @@
 module.exports = {
   title: 'docs',  // 设置网站标题
   dest: './dist',    // 设置输出目录
-  base: '/blogsite/', // 设置站点根路径
+  base: '/blog/', // 设置站点根路径
   repo: 'https://github.com/xiaobinlove/blogsite', // 添加 github 链接
   serviceWorker: true,
   themeConfig: {
