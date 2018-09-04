@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git介绍 | docs</title>
+    <meta name="description" content="">
+    
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.b84ed307.css" as="style"><link rel="preload" href="/blog/assets/js/app.1efcc9d7.js" as="script"><link rel="preload" href="/blog/assets/js/9.039196de.js" as="script"><link rel="prefetch" href="/blog/assets/js/6.79afbf23.js"><link rel="prefetch" href="/blog/assets/js/2.16a4505e.js"><link rel="prefetch" href="/blog/assets/js/3.4a585775.js"><link rel="prefetch" href="/blog/assets/js/4.41987bb0.js"><link rel="prefetch" href="/blog/assets/js/5.07b611a7.js"><link rel="prefetch" href="/blog/assets/js/7.36d7c43c.js"><link rel="prefetch" href="/blog/assets/js/8.0dc2132b.js"><link rel="prefetch" href="/blog/assets/js/10.836cfb9e.js"><link rel="prefetch" href="/blog/assets/js/11.558f2952.js"><link rel="prefetch" href="/blog/assets/js/12.cde09ee4.js"><link rel="prefetch" href="/blog/assets/js/13.5e06d841.js"><link rel="prefetch" href="/blog/assets/js/14.4c53b406.js"><link rel="prefetch" href="/blog/assets/js/15.779a9950.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.b84ed307.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">docs</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" class="nav-link">Home</a></div><div class="nav-item"><a href="/blog/blog/" class="nav-link router-link-active">Blog</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">Javascript</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/javascript/es5/" class="nav-link">es5</a></li><li class="dropdown-item"><!----> <a href="/blog/javascript/es6/" class="nav-link">es6</a></li></ul></div></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/" class="nav-link">Home</a></div><div class="nav-item"><a href="/blog/blog/" class="nav-link router-link-active">Blog</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">Javascript</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/javascript/es5/" class="nav-link">es5</a></li><li class="dropdown-item"><!----> <a href="/blog/javascript/es6/" class="nav-link">es6</a></li></ul></div></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>es5</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/blog/blog/" class="sidebar-link">标题</a></li><li><a href="/blog/blog/git.html" class="active sidebar-link">Git介绍</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/blog/git.html#git-remote" class="sidebar-link">Git remote</a></li></ul></li><li><a href="/blog/blog/class2.html" class="sidebar-link">class2</a></li><li><a href="/blog/blog/class3.html" class="sidebar-link">class3</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="git介绍"><a href="#git介绍" aria-hidden="true" class="header-anchor">#</a> Git介绍</h1> <p>以下指南基于几个共同的假设：</p> <ul><li>将文档放置在项目的 <code>docs</code> 目录中；</li> <li>使用默认的构建输出位置（<code>.vuepress/dist</code>）。</li> <li>VuePress 是在项目本地的依赖中安装的，并且配置如下的 npm scripts:</li></ul> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;docs:build&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vuepress build docs&quot;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="git-remote"><a href="#git-remote" aria-hidden="true" class="header-anchor">#</a> Git remote</h2> <p><img src="/blog/assets/img/remote.d13350d5.png" alt="avatar"></p> <ul><li>为了便于管理。Git要求每个远程主机都必须制定一个主机名。git remote命令就是用于管理主机名。</li></ul> <ol><li>git remote<br>
+会列出远程库的名字。在我们clone了刚才的项目之后，默认会看到一个origin的远程仓库。</li></ol> <div class="language-bash extra-class"><div class="highlight-lines"><br><br><br><br></div><pre class="language-bash"><code>Administrator@9GPBSPCCTFQXEUX MINGW64 /e/TestTwo <span class="token punctuation">(</span>test<span class="token punctuation">)</span>
+$ <span class="token function">git</span> remote
+origin
+</code></pre></div><ol start="2"><li>git remote -v<br>
+显示出详细的url地址名和对应的别名</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>Administrator@9GPBSPCCTFQXEUX MINGW64 /e/TestTwo <span class="token punctuation">(</span>test<span class="token punctuation">)</span>
+
+$ <span class="token function">git</span> remote -v
+
+origin  git@github.com:zhaoJoeyuan/TestTwo.git <span class="token punctuation">(</span>fetch<span class="token punctuation">)</span>
+
+origin  git@github.com:zhaoJoeyuan/TestTwo.git <span class="token punctuation">(</span>push<span class="token punctuation">)</span>
+</code></pre></div><ol start="3"><li>git remote add name url<br>
+添加远程仓库，一旦添加以后别名就代表远程库的版本库地址，可以直接使用。<br>
+git remote add joey git@github.com:zhaoJoeyuan/Test.git</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>Administrator@9GPBSPCCTFQXEUX MINGW64 /e/TestTwo <span class="token punctuation">(</span>test<span class="token punctuation">)</span>
+
+$ <span class="token function">git</span> remote add joey git@github.com:zhaoJoeyuan/Test.git
+
+Administrator@9GPBSPCCTFQXEUX MINGW64 /e/TestTwo <span class="token punctuation">(</span>test<span class="token punctuation">)</span>
+
+$ <span class="token function">git</span> remote -v
+
+joey    git@github.com:zhaoJoeyuan/Test.git <span class="token punctuation">(</span>fetch<span class="token punctuation">)</span>
+
+joey    git@github.com:zhaoJoeyuan/Test.git <span class="token punctuation">(</span>push<span class="token punctuation">)</span>
+
+origin  git@github.com:zhaoJoeyuan/TestTwo.git <span class="token punctuation">(</span>fetch<span class="token punctuation">)</span>
+
+origin  git@github.com:zhaoJoeyuan/TestTwo.git <span class="token punctuation">(</span>push<span class="token punctuation">)</span>
+</code></pre></div><ol start="4"><li>git remote remove name<br>
+删除添加的远程库
+git remote remove joey</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>Administrator@9GPBSPCCTFQXEUX MINGW64 /e/TestTwo <span class="token punctuation">(</span>test<span class="token punctuation">)</span>
+
+$ <span class="token function">git</span> remote remove joey
+
+Administrator@9GPBSPCCTFQXEUX MINGW64 /e/TestTwo <span class="token punctuation">(</span>test<span class="token punctuation">)</span>
+
+$ <span class="token function">git</span> remote -v
+
+origin  git@github.com:zhaoJoeyuan/TestTwo.git <span class="token punctuation">(</span>fetch<span class="token punctuation">)</span>
+
+origin  git@github.com:zhaoJoeyuan/TestTwo.git <span class="token punctuation">(</span>push<span class="token punctuation">)</span>
+</code></pre></div><ol start="5"><li>git remote rename 原名字 新名字<br>
+git remote rename origin joey</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>Administrator@9GPBSPCCTFQXEUX MINGW64 /e/TestTwo <span class="token punctuation">(</span>test<span class="token punctuation">)</span>
+
+$ <span class="token function">git</span> remote <span class="token function">rename</span> origin joey
+
+Administrator@9GPBSPCCTFQXEUX MINGW64 /e/TestTwo <span class="token punctuation">(</span>test<span class="token punctuation">)</span>
+
+$ <span class="token function">git</span> remote -v
+
+joey    git@github.com:zhaoJoeyuan/TestTwo.git <span class="token punctuation">(</span>fetch<span class="token punctuation">)</span>
+
+joey    git@github.com:zhaoJoeyuan/TestTwo.git <span class="token punctuation">(</span>push<span class="token punctuation">)</span>
+
+</code></pre></div><ol start="6"><li>git remote show 主机名<br>
+查看指定主机的详细信息：<br>
+总的来说就是git  remote +各种不同的参数来做不同的操作<br>
+git remote show joey</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>Administrator@9GPBSPCCTFQXEUX MINGW64 /e/TestTwo <span class="token punctuation">(</span>test<span class="token punctuation">)</span>
+$ <span class="token function">git</span> remote show joey
+* remote joey
+  Fetch URL: git@github.com:zhaoJoeyuan/TestTwo.git
+  Push  URL: git@github.com:zhaoJoeyuan/TestTwo.git
+  HEAD branch: master
+  Remote branches:
+    TestTTT             new <span class="token punctuation">(</span>next fetch will store <span class="token keyword">in</span> remotes/joey<span class="token punctuation">)</span>
+    master              tracked
+    zhaoJoeyuan-patch-1 tracked
+  Local branch configured <span class="token keyword">for</span> <span class="token string">'git pull'</span><span class="token keyword">:</span>
+    master merges with remote master
+  Local ref configured <span class="token keyword">for</span> <span class="token string">'git push'</span><span class="token keyword">:</span>
+    master pushes to master <span class="token punctuation">(</span>fast-forwardable<span class="token punctuation">)</span>
+</code></pre></div><hr> <blockquote><p>原文：<a href="https://blog.csdn.net/zy00000000001/article/details/70505150" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/zy00000000001/article/details/70505150<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>
+·</p></blockquote></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/blog/blog/" class="prev router-link-active">
+          标题
+        </a></span> <span class="next"><a href="/blog/blog/class2.html">
+          class2
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/blog/assets/js/9.039196de.js" defer></script><script src="/blog/assets/js/app.1efcc9d7.js" defer></script>
+  </body>
+</html>
