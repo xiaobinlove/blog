@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "cbbe2af5da0d78c7e40d64147182da7b"
+    "revision": "5eafdef0f24fb3d7a8e92f9002060bdb"
   },
   {
     "url": "assets/css/0.styles.b84ed307.css",
@@ -100,28 +100,28 @@ self.__precacheManifest = [
     "revision": "f52afaa19d67dfefb5558f8b0b35dbf9"
   },
   {
-    "url": "assets/js/app.8cac3254.js",
-    "revision": "29681fa4b6b8b62e25ba46809e2d8eb1"
+    "url": "assets/js/app.070e880b.js",
+    "revision": "a07799628627f230d2149faef038a04c"
   },
   {
     "url": "blog/class2.html",
-    "revision": "f14d325ddb2cbd671a40b4428f09c1e4"
+    "revision": "83c4d5e9c4b5cf16ca4218516fab774b"
   },
   {
     "url": "blog/class3.html",
-    "revision": "45b97baef7d36d588a0b535b20368a37"
+    "revision": "0cc0371c219b9ac31c05d396ac7f35da"
   },
   {
     "url": "blog/code.html",
-    "revision": "6d823891fca42f029d3d50e86434ebb6"
+    "revision": "af7765b90d73c1d32e5609b8b00d3238"
   },
   {
     "url": "blog/git.html",
-    "revision": "7384d8de246b2f71110a1e6cc9463ae9"
+    "revision": "18b5ffd3d14a0a7776fb8cfc176efab4"
   },
   {
     "url": "blog/index.html",
-    "revision": "d65eddefd63d834f2de57334bf476593"
+    "revision": "33551f04bb9e2efd1835f691725984cf"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -177,31 +177,31 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "3bf4768f94b1131ac9b85a6142648e77"
+    "revision": "ad402f60b47946b85668a605dd6b95c0"
   },
   {
     "url": "javascript/es5/class1.html",
-    "revision": "782f4f0aac4c171a91e2b4cca4884446"
+    "revision": "750128cb852c720efd00fa98d0ec5656"
   },
   {
     "url": "javascript/es5/class2.html",
-    "revision": "cb00051b5cd13d1f812e976531d36cdd"
+    "revision": "977b19eff98587f1aa7be452f28f248b"
   },
   {
     "url": "javascript/es5/class3.html",
-    "revision": "1b672385148c6ea389d75caef76280a1"
+    "revision": "f6a8423c1cbaf842a218128e0a6643b9"
   },
   {
     "url": "javascript/es5/class4.html",
-    "revision": "96983aded4ccf5ac7e56afbbcf3ac190"
+    "revision": "b24d802f9ab6e127e22512d9c05051ff"
   },
   {
     "url": "javascript/es5/index.html",
-    "revision": "647baa986f50707d0ecc6a087e812be5"
+    "revision": "817b66b88e125e315e09b3ce44ff2199"
   },
   {
     "url": "javascript/es6/index.html",
-    "revision": "469d36533471b451a23143005454c7e6"
+    "revision": "9b51524c9053c30306d780b7c13c0627"
   },
   {
     "url": "logo.jpg",
